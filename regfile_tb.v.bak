@@ -1,0 +1,62 @@
+module regfile_tb;
+	wire [15:0] data_out;
+	reg [15:0] data_in;
+	reg [2:0] writenum, readnum;
+	reg write, clk;
+
+	regfile dut(data_in, writenum, write, readnum, clk, data_out);  //Instantiating the module to be tested.
+
+	initial begin
+		clk = 1'b0; #7; //Oscillating the clk every 7 ps. 
+		forever begin
+			clk = 1'b1; #7;
+			clk = 1'b0; #7;
+		end
+	end
+
+	initial begin
+		write = 1'b0; #5;
+		forever begin //Oscillating the write input every 5 ps.
+			write = 1'b1; #5;
+			write = 1'b0; #5;
+		end
+	end
+
+
+	initial begin
+		
+		readnum = 3'b 111; writenum = 3'b 111; // All casses give input anf different write and read adresses to monitor the output. 
+		data_in = 16'b 1000000000000001; #30;	
+
+		data_in = 16'b 1111111111111111; #30;	
+
+		readnum = 3'b 000; writenum = 3'b 000;
+		data_in = 16'b 0000000000000000; #30;	
+
+		readnum = 3'b 000; writenum = 3'b 111;
+		data_in = 16'b 1111000011110000; #30;	
+
+		readnum = 3'b 110; writenum = 3'b 110;
+		data_in = 16'b 0000111100001111; #30;	
+
+		readnum = 3'b 100; writenum = 3'b 100;
+		data_in = 18'b 001111000000001111; #30;	
+
+		readnum = 4'b 1010; writenum = 4'b 1010;
+		data_in = 16'b 0000111111110000; #30;	
+		$stop;
+	end
+		
+		
+endmodule
+
+
+
+
+
+
+
+
+
+
+

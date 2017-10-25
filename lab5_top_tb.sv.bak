@@ -1,0 +1,64 @@
+module lab5_top_tb;
+  reg [3:0] KEY;
+  reg [9:0] SW;
+  wire [9:0] LEDR; 
+  wire [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+  reg CLOCK_50;
+  reg [2:0] debug;
+
+  lab5_top DUT(KEY,SW,LEDR,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,CLOCK_50);
+
+  initial forever begin
+    CLOCK_50 = 0; #5;
+    CLOCK_50 = 1; #5;
+  end
+
+  initial begin
+    // ADD YOUR TEST SCRIPT HERE
+always @(negedge KEY[0] | KEY == 4'b1101) begin
+    if (KEY == 4'b1101) begin //reset button pressed (KEY1)
+	present_state = `N8;
+	next_state = `N8;
+	HEX0 = 7'b0000000; //number 6 on HEX
+
+    end
+    else begin
+	case(present_state)
+	  `N8: if(SW == 10'b0000000001) //switch up (fwd)
+	    	next_state = `N0;
+	   else //switch down (bwd)
+		next_state = `N7;
+	  `N0: if(SW == 10'b0000000001)
+		next_state = `N4;
+	   else
+		next_state = `N8;
+	  `N4: if(SW == 10'b0000000001)
+		next_state = `N3;
+	   else
+		next_state = `N0;
+	  `N3: if(SW == 10'b0000000001)
+		next_state = `N7;
+	   else
+		next_state = `N4;
+	  `N7: if(SW == 10'b0000000001)
+		next_state = `N8;
+	   else
+		next_state = `N3;	
+	default: HEX0 = 7'b0000000;
+	endcase
+
+	present_state = next_state;
+	
+	case(present_state)
+	   `N8: HEX0 = 7'b0000000;
+	   `N0: HEX0 = 7'b1000000;
+	   `N4: HEX0 = 7'b0011001;
+	   `N3: HEX0 = 7'b0110000;
+	   `N7: HEX0 = 7'b1111000;
+	endcase
+     end
+   end
+endmodule
+    $stop;
+  end
+endmodule

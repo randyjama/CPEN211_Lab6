@@ -1,0 +1,339 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vALU
+Z0 !s110 1508893977
+!i10b 1
+!s100 <WhmEBzd>g=j8NR5@NbV73
+Ik1NYG6A=^TTTb1]mf_]ED3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5
+w1507842546
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1508893977.613000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU.v|
+!i113 1
+Z4 o-work work
+n@a@l@u
+vdatapath
+Z5 !s110 1508893978
+!i10b 1
+!s100 ;z3aGSS[BWHMLQ7UXR2og1
+IfBHdR:obA7mdXhi<Kck0N3
+R1
+R2
+w1507842975
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893978.705000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath.v|
+!i113 1
+R4
+vdatapath_tb
+!s110 1508893979
+!i10b 1
+!s100 cU3K>i0[C1?M?j3VK0^Gi2
+ILd@G[VnCEb=_@_z[>l>I^0
+R1
+R2
+w1507842979
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath_tb.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893978.989000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/datapath_tb.v|
+!i113 1
+R4
+vDec
+R0
+!i10b 1
+!s100 HXI=VPo8:cfUVK9G>1l2D3
+IB[<WB2^=ORP;gDF]TSPU:1
+R1
+R2
+Z6 w1507842646
+Z7 8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile.v
+Z8 FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile.v
+L0 61
+R3
+r1
+!s85 0
+31
+Z9 !s108 1508893977.035000
+Z10 !s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile.v|
+!i113 1
+R4
+n@dec
+vinput_iface
+Z12 !s110 1508893976
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+IB3geP4J7U<HGCnzmgXdiK1
+R1
+R2
+Z13 w1507856654
+Z14 8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top.v
+Z15 FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top.v
+L0 109
+R3
+r1
+!s85 0
+31
+Z16 !s108 1508893976.752000
+Z17 !s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top.v|
+!i113 1
+R4
+vlab5_top
+R12
+!i10b 1
+!s100 =j:FgMjCHK1iYD^BjBJzX3
+I=WXh<M7`Z=lHSdB8?OGDG1
+R1
+R2
+R13
+R14
+R15
+L0 57
+R3
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R4
+vlab5_top_tb
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R12
+!i10b 1
+!s100 njANKBKND3d;G78dZb`0Y1
+I^d>CS[ez^e[98>Hm0N>:_3
+R1
+!s105 lab5_top_tb_sv_unit
+S1
+R2
+w1507789245
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top_tb.sv
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893976.267000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/lab5_top_tb.sv|
+!i113 1
+o-work work -sv
+vMux8
+R0
+!i10b 1
+!s100 3F6hDfCQDG890DXjgH`ah1
+IYzk1LEcm<84zf6kD46dJD3
+R1
+R2
+R6
+R7
+R8
+L0 38
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+n@mux8
+vregfile
+R0
+!i10b 1
+!s100 YL[;eXnmg76GO[fVShYMo0
+I]BPamJC7>L;?U@6?izBj[0
+R1
+R2
+R6
+R7
+R8
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+vregfile_tb
+R0
+!i10b 1
+!s100 KFRYDcfGYVhYb?UTDXM<o2
+IKc7ZH9R9>F:m2VO589?>N2
+R1
+R2
+w1507842664
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile_tb.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893977.347000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/regfile_tb.v|
+!i113 1
+R4
+vshifter
+R5
+!i10b 1
+!s100 FMK9c3E=z^:R]P2hh8?_S0
+IJMZMAoOBIH:EnRA>5lQ5a3
+R1
+R2
+w1507842679
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893978.209000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter.v|
+!i113 1
+R4
+vsseg
+R12
+!i10b 1
+!s100 b1h7jIXjdOE;^7W97e<642
+IiYIeOb5eE4a2dmjZ_GTlZ1
+R1
+R2
+R13
+R14
+R15
+L0 167
+R3
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R4
+vtest_ALU
+R0
+!i10b 1
+!s100 70nUgKeLzboZAG:hH<dTF3
+I2`6U81JmaP7nMRQ2m^]DQ0
+R1
+R2
+w1507844479
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU_tb.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893977.928000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/ALU_tb.v|
+!i113 1
+R4
+ntest_@a@l@u
+vtest_shifter
+R5
+!i10b 1
+!s100 `jL=@J]CmP26BV4VohTnP1
+I2oheVJF^^71F]HRYAN2I<3
+R1
+R2
+w1507783959
+8C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter_tb.v
+FC:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1508893978.471000
+!s107 C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Randy/Google Drive/School (UBC)/CPEN 211/Lab 5/shifter_tb.v|
+!i113 1
+R4
+vvDFF
+R12
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+IC5W_KfeVAnEGhF@B0@V7]2
+R1
+R2
+R13
+R14
+R15
+L0 148
+R3
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R4
+nv@d@f@f
+vvDFFE
+R0
+!i10b 1
+!s100 7I7Q=WR]I>>@8n_QeBFPS3
+ISb9D2@35QEkbhSj@lK8fA1
+R1
+R2
+R6
+R7
+R8
+L0 49
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R4
+nv@d@f@f@e

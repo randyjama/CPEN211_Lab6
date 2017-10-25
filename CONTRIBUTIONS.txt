@@ -1,0 +1,18 @@
+Partner 1 (Randy Jama):
+Wrote module and testbenches for ALU and shifter
+Produced wave.do files for ALU and shifter
+Datapath file: wrote the comments and all inputs/outputs/wires involved
+Wrote the LAB4-based section of the verilog code in lab5_top.v
+
+Partner 2 (Osama Dawood):
+Wrote Register File module and testbench
+Produced wave.do files for Resister File module
+Datapath file: wrote general structure, as well as the MUX's involved
+Wrote the testbench for lab5_top (though both were present during writing)
+
+Both:
+Wrote the datapath that connected all pieces (we took turns writing actual verilog code for practice)
+Troubleshooted our respective modules if errors occured that the other partner could nto fix.
+Created the testbench cases and debugged any issues together.
+Loaded the file into the DE1-SoC for testing and troubleshooting. If an error went wrong we
+would both go back to the code and try to find/fix the issue.
